@@ -1,0 +1,29 @@
+@keyframes move-slide-show {
+
+    0%{
+        background-image: url(../Images/slideshow-1.jpg);
+    }
+    
+    33.333333%{
+        background-image: url(../Images/slideshow-2.jpg);
+    }
+    
+    66.6666%{
+        background-image: url(../Images/slideshow-3.jpg);
+    }
+    
+    
+}
+
+@keyframes move-point {
+    0%{
+        margin-top: 0;
+        opacity: 1;
+    }
+
+    100%{
+        margin-top: 80%;
+        opacity: .5;
+    }
+    
+}
